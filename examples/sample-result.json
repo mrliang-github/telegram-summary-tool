@@ -1,0 +1,58 @@
+{
+  "name": "Telegram Summary Tool Demo",
+  "type": "saved_messages",
+  "messages": [
+    {
+      "id": 1,
+      "type": "service",
+      "date": "2026-03-01T09:00:00",
+      "actor": "System",
+      "text": "Alice created the group"
+    },
+    {
+      "id": 2,
+      "type": "message",
+      "date": "2026-03-01T10:00:00",
+      "from": "Alice",
+      "text": "今天要发布 v0.1，README 需要补上开箱说明。"
+    },
+    {
+      "id": 3,
+      "type": "message",
+      "date": "2026-03-01T10:05:00",
+      "from": "Bob",
+      "text": "我来负责文档，今晚 20:00 前提交 PR。"
+    },
+    {
+      "id": 4,
+      "type": "message",
+      "date": "2026-03-01T10:08:00",
+      "from": "Alice",
+      "text": "好的，发布前请确认 CI 绿灯。"
+    },
+    {
+      "id": 5,
+      "type": "message",
+      "date": "2026-03-01T10:20:00",
+      "from": "Carol",
+      "text": [
+        {
+          "type": "plain",
+          "text": "我补一个 demo 数据，"
+        },
+        {
+          "type": "plain",
+          "text": "让新用户 30 秒跑通。"
+        }
+      ],
+      "reply_to_message_id": 2
+    },
+    {
+      "id": 6,
+      "type": "message",
+      "date": "2026-03-01T10:42:00",
+      "from": "Bob",
+      "text": "已安排，周五统一发布。"
+    }
+  ]
+}

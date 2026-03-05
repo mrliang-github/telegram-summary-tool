@@ -1,0 +1,12 @@
+{
+  "name": "telegram-summary-gramjs-connector",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "fetch": "node fetch-chat.mjs"
+  },
+  "dependencies": {
+    "telegram": "latest"
+  }
+}
+
