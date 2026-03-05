@@ -21,8 +21,7 @@
 
 ```bash
 # 1) 克隆
-# 替换为你的仓库地址
-git clone https://github.com/<your-username>/telegram-summary-tool.git
+git clone https://github.com/mrliang-github/telegram-summary-tool.git
 cd telegram-summary-tool
 
 # 2) 安装
